@@ -1,7 +1,9 @@
 const user = "홍길동";
 
-const hello = (name) => {
-  console.log(`${name} 님, 안녕하세요?`);
-};
+// const hello = (name) => {
+//   console.log(`${name} 님, 안녕하세요?`);
+// };
 
 hello(user);
+
+// hello.js + user.js = app-1.js
