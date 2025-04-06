@@ -14,7 +14,7 @@ const server = http.createServer((req, res)=>{
   // 이것을 JavaScript 에서는 구조분해 할당(destructing)
   console.log(method === "GET" && url === "/home")
   console.log(method === "GET" )
-  console.log(url === "/home" )
+  console.log(url === "/home" );
 
   
   if(method === "GET" && url === "/home"){
